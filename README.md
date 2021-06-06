@@ -29,7 +29,7 @@ I bough two IDE<->SATA adapters so that I could use modern SATA-Disks or even SA
 
 It was not very difficult to put such an adapter into the caddy in between the SATA disk and the IDE connector. However it may help to have a longer IDE cable at hand (about 10 cm, as the original one might be too short). Note that the adapter must be configured so that it behaves as an IDE master device by using the jumpers. The recorder recognized all SATA disks I tried even a Samsung 840 EVO and allowed to format them (I only use 24Bit @ 48Khz) in Quick-Format mode.
 
-The latter adapter with the Marvell chipset worked much better than the former, but with all disks and both adapters I had gliches (clicks and pops) in the audio recordings. Even when only recording 2 tracks at a time! I was quite disappointed, as the adapters promised to support UDMA133 speed which should be enough and of course the SSD should be fast enough anyway. Maybe the conversion SATA<->IDE inroduces timing issues or delays that cause glitches in the audio. So that is a no-go.
+The latter adapter with the Marvell chipset worked much better than the former, but with all disks and both adapters I had gliches (clicks and pops) in the audio recordings. Even when only recording 2 tracks at a time! I was quite disappointed, as the adapters promised to support UDMA133 speed which should be enough and of course the SSD should be fast enough anyway. Maybe the conversion SATA<->IDE introduces timing issues or delays that cause glitches in the audio. So that is a no-go.
 
 
 ## IDE/PATA SSD
@@ -53,7 +53,7 @@ But wait... there's more... but beware you're entering the a bit more unpleasant
 
 ## IDE <-> Compact Flash Card?
 
-The logical alternative would be to try an IDE SSD so that no translation of protocols is needed. But IDE drives are hard to find, expensive and not very fast in terms of transfer rates anyway. So before risking another disappointment I looked around for a cheaper alternative. I realized that compact flash cards basically are (E)-IDE disks and that there exist IDE<->CF-card adapters. They more or less are passive devices that simply adapt the connectors. I bought the startech unit which had good reviews and comes in a nice form factor:
+I looked around for a cheaper alternative. I realized that compact flash cards basically are (E)-IDE disks and that there exist IDE<->CF-card adapters. They more or less are passive devices that simply adapt the connectors. I bought the startech unit which had good reviews and comes in a nice form factor:
 ![](img/35baycf2ide.d.jpg)
 
 I built it into a caddy and used the top IDE1 bay for it:
